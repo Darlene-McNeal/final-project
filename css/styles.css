@@ -59,3 +59,7 @@ h1  {
     text-shadow: 3px 3px hotpink;
 }
 
+.long-message {
+    height: 100px;
+    width: 100px;
+}
