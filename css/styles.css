@@ -65,12 +65,37 @@ h1  {
 }
 
 .background-image {
+    background-image: url(../img/veggies.jpg);
+    background-size: cover;
+    width: 1200;
+    height: 100vh;
     margin: 0px;
-    height: 0px;
-    background-size: 100%;
-    background-blend-mode: color white;
+    padding: 0px;
+}
+
+.audio {
+        display: inline-block;
+}
+
+footer {
+    display: block;
+    font-size: 20px;
+    font-weight: 500px;
+    padding: 0px;
+    float: inline-start;
+    border: 0px 3px 5px greenyellow;
+}
+
+.heading-left {
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 3px 3px green;
 
 }
+
+
+
+
 
 
 
