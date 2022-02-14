@@ -60,8 +60,8 @@ h1  {
 }
 
 .long-message {
-    height: 150px;
-    width: 250px;
+    height: 55px;
+    width: 120px;
 }
 
 .audio {
@@ -70,37 +70,34 @@ h1  {
 
 footer {
     display: block;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 500px;
     padding: 0px;
-    border: 0px 3px 5px greenyellow;
+    margin: 50px;
     overflow: hidden;
 }
 
 .footer-left {
     float: left;
+    margin-bottom: 40px;
 }
 
 .footer-right {
     float: right;
+    margin-bottom: 50px;
+    margin-right: 40px;
+
 }
 
-.form-right {
+.form {
     float: right;
+    margin-right: 60px;
 }
 
 .heading-left {
     text-align: center;
-    text-decoration: none;
 }
 
-.info {
-    margin: 60px;
-}
-
-.button :hover {
-    background-color: green;
-}
 
 
 
