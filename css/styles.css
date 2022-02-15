@@ -11,9 +11,7 @@ a {
 }
 
 p {
-    text-indent: 40px;
-    margin-left: 20px;
-    margin-right: 20px;
+    background-image: url('img/veggies.jpg');
 }
 
 body {
