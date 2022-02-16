@@ -71,6 +71,12 @@ footer {
     overflow: hidden;
 }
 
+iframe {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .footer-left {
     float: left;
     margin-bottom: 40px;
