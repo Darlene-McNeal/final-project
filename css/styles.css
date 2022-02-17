@@ -10,6 +10,12 @@ a {
    margin: 10px; 
 }
 
+p {
+    margin-left: 50px;
+    margin-right: 800px;
+    text-indent: 40px;
+}
+
 body {
     margin: 0px;
     padding: 0px;
@@ -51,7 +57,7 @@ img {
 }
 
 h1  {
-    text-align: center;  
+    text-align: left;  
     font-size: 35px;
 }
 
@@ -65,16 +71,10 @@ h1  {
 }
 
 footer {
-    display: inline-block;
-    font-size: 16px;
-    font-weight: 500px;
-    padding: 0px;
-    overflow: hidden;
-}
+    padding: 10px;
+    margin-left: 25px;
+    margin-right: 280px;
 
-.row {
-    width: 100%;
-    background-color: hotpink;
 }
 
 iframe {
@@ -83,32 +83,27 @@ iframe {
     margin-right: auto;
 }
 
-.footer-left { 
+.row {
+    width: 100%;
+    background-color: lightgreen
+}
+
+.colx1 {
     text-align: center;
-    padding: 0px;
+    border-bottom: 20px;
+    padding-bottom: 50px;
 }
 
-.footer-right {
+.colx2 {
+    text-align: left;
+}
+
+.colx3 {
     text-align: center;
-    margin-bottom: 50px;
-    margin-right: 40px;
 }
 
-.footer-text {
-    margin-left: 45px;
-    margin-right: 45px;
-}
-
-.form {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 5px;
-
-}
-
-.heading-left {
-    text-align: center; 
+.head2 h3 {
+    text-align: center;    
 }
 
 .hero {
@@ -119,26 +114,38 @@ iframe {
     margin-right: auto;
 }
 
-.address {
+.title1 {
+    text-indent: 100px;
+    margin-left: 0px;
+    margin-right: 80px;
+}
+
+.title2 {
+    text-indent: 100px;
+    margin-left: 0px;
+    margin-right: 80px;
+}
+
+.title3 {
+    text-indent: 100px;
+    margin-left: 0px;
+    margin-right: 80px;
+}
+
+.jar {
+    padding-bottom: 100px;
+    float: right;
+    width: 650px;
+    height: 650px;
+}
+
+.heading-right {
     text-align: center;
 }
 
-.title1 p {
-    text-indent: 30px;
-    margin-left: 80px;
-    margin-right: 80px;
-}
 
-.title2 p {
-    text-indent: 30px;
-    margin-left: 80px;
-    margin-right: 80px;
-    
-}
 
-h3 {
-    text-indent: 80px;
-}
+
 
 
 
